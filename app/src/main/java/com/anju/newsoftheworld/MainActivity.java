@@ -245,7 +245,7 @@ public class MainActivity extends AppCompatActivity {
                 // Add the necessary headers for the request
                 Map<String, String> headers = new HashMap<>();
                 headers.put("User-Agent", "News-App");
-                headers.put("X-Api-Key", "09688d2f5d434b43bdb940055ff177e7"); // Use your actual API key
+                headers.put("X-Api-Key", "Your API Key"); // Use your actual API key
                 return headers;
             }
         };
@@ -343,7 +343,7 @@ public class MainActivity extends AppCompatActivity {
             public Map<String, String> getHeaders() throws AuthFailureError {
                 Map<String, String> headers = new HashMap<>();
                 headers.put("User-Agent", "News-App");
-                headers.put("X-Api-Key", "09688d2f5d434b43bdb940055ff177e7");  // Use your actual API key
+                headers.put("X-Api-Key", "Your API Key");  // Use your actual API key
                 return headers;
             }
         };
